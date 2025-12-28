@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { ArrowRight } from "lucide-react";
+
 
 export function Hero() {
   const containerRef = useRef<HTMLDivElement>(null);
